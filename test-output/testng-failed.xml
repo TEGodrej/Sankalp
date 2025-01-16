@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.GAVL.Sankalp.VerifyUserProfile">
+      <class name="io.GAVL.Sankalp.verifyCodeTextFunctionality">
         <methods>
-          <include name="verifyUserDetails"/>
           <include name="StartApp"/>
+          <include name="verifyUserCanEnterValidCodeText"/>
         </methods>
-      </class> <!-- io.GAVL.Sankalp.VerifyUserProfile -->
+      </class> <!-- io.GAVL.Sankalp.verifyCodeTextFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

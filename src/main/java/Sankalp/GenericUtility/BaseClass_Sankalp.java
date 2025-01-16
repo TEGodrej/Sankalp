@@ -10,12 +10,18 @@ import org.testng.annotations.BeforeClass;
 import io.appium.java_client.android.AndroidDriver;
 import objectRepositroy.DashBoardPage;
 import objectRepositroy.ProfilePage;
+import objectRepositroy.liquidationPage;
+import objectRepositroy.scanPage;
+import objectRepositroy.scanSummaryPage;
 
 public class BaseClass_Sankalp {
 	public static AndroidDriver driver;
 	public static DashBoardPage dbp;
 	public static ProfilePage pp;
 	public static DriverUtility dutil;
+	public static scanPage sp;
+	public static liquidationPage lp;
+	public static scanSummaryPage ssp;
 	
 
 	@BeforeClass
@@ -34,5 +40,8 @@ public class BaseClass_Sankalp {
 		dbp=new DashBoardPage(driver);
 		pp=new ProfilePage(driver);
 		dutil=new DriverUtility(driver);
+		sp=new scanPage(driver);
+		lp=new liquidationPage(driver);
+		ssp=new scanSummaryPage(driver);
 	}
 }

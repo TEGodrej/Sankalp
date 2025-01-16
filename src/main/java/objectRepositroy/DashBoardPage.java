@@ -26,6 +26,24 @@ AndroidDriver driver;
 	
 	@FindBy(xpath = "//android.view.View[@resource-id=\"objMain\"]/android.view.View/android.view.View[1]")
 	private WebElement DashBoardTitle;
+	
+	@FindBy(xpath = "//android.widget.Button[@text=\"Accumulation\"]")
+	private WebElement accumulationBtn;
+	
+	@FindBy(xpath = "//android.widget.Button[@text=\"Productwise\"]")
+	private WebElement productBtn;
+
+	public AndroidDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getAccumulationBtn() {
+		return accumulationBtn;
+	}
+
+	public WebElement getProductBtn() {
+		return productBtn;
+	}
 
 	public WebElement getDashBoardBtn() {
 		return dashBoardBtn;
