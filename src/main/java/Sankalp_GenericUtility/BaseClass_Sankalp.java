@@ -1,4 +1,4 @@
-package Sankalp.GenericUtility;
+package Sankalp_GenericUtility;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -10,7 +10,10 @@ import org.testng.annotations.BeforeClass;
 import io.appium.java_client.android.AndroidDriver;
 import objectRepositroy.DashBoardPage;
 import objectRepositroy.ProfilePage;
+import objectRepositroy.QnAPage;
+import objectRepositroy.ScanhistoryPage;
 import objectRepositroy.liquidationPage;
+import objectRepositroy.placementPage;
 import objectRepositroy.scanPage;
 import objectRepositroy.scanSummaryPage;
 
@@ -22,6 +25,9 @@ public class BaseClass_Sankalp {
 	public static scanPage sp;
 	public static liquidationPage lp;
 	public static scanSummaryPage ssp;
+	public static placementPage plp;
+	public static ScanhistoryPage shp;
+	public static QnAPage qp;
 	
 
 	@BeforeClass
@@ -43,5 +49,8 @@ public class BaseClass_Sankalp {
 		sp=new scanPage(driver);
 		lp=new liquidationPage(driver);
 		ssp=new scanSummaryPage(driver);
+		plp=new placementPage(driver);
+		shp=new ScanhistoryPage(driver);
+		qp=new QnAPage(driver);
 	}
 }

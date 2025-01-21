@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.GAVL.Sankalp.verifyCodeTextFunctionality">
+      <class name="io.GAVL.Sankalp.verifyQandAFuntionality">
         <methods>
           <include name="StartApp"/>
-          <include name="verifyUserCanEnterValidCodeText"/>
+          <include name="verifyUserAbleToCreateComplaintWithAppIssueOption"/>
         </methods>
-      </class> <!-- io.GAVL.Sankalp.verifyCodeTextFunctionality -->
+      </class> <!-- io.GAVL.Sankalp.verifyQandAFuntionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

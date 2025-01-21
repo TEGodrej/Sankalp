@@ -3,13 +3,16 @@ package io.GAVL.Sankalp;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.google.common.collect.ImmutableMap;
 
-import Sankalp.GenericUtility.BaseClass_Sankalp;
+import Sankalp_GenericUtility.BaseClass_Sankalp;
+import Sankalp_GenericUtility.ListnerUtility;
 import io.appium.java_client.AppiumBy;
 
+@Listeners(ListnerUtility.class)
 public class VerifyUserProfile extends BaseClass_Sankalp {
 
 	@Test

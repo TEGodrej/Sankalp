@@ -18,6 +18,26 @@ public class ScanhistoryPage {
 	@FindBy(xpath = "//android.widget.Button[@text=\"\"]")
 	private WebElement filterBtn;
 	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Placement\"]")
+	private WebElement placement;
+	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Liquidation\"]")
+	private WebElement liquidation;
+	
+	
+	
+	public WebElement getPlacement() {
+		return placement;
+	}
+
+
+
+	public WebElement getLiquidation() {
+		return liquidation;
+	}
+
+
+
 	public WebElement getfilterBtn() {
 		return filterBtn;
 	}

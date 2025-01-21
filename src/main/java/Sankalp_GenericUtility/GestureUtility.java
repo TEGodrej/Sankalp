@@ -1,4 +1,4 @@
-package Sankalp.GenericUtility;
+package Sankalp_GenericUtility;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

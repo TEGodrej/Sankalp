@@ -1,11 +1,14 @@
 package io.GAVL.Sankalp;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Sankalp.GenericUtility.BaseClass_Sankalp;
+import Sankalp_GenericUtility.BaseClass_Sankalp;
+import Sankalp_GenericUtility.ListnerUtility;
 import io.appium.java_client.AppiumBy;
 
+@Listeners(ListnerUtility.class)
 public class VerifyScanFunctionality extends BaseClass_Sankalp{
 	
 	@Test

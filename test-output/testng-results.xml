@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T17:21:16 IST" name="Default suite" finished-at="2025-01-16T17:21:40 IST" duration-ms="24169">
+  <suite started-at="2025-01-21T15:13:50 IST" name="Default suite" finished-at="2025-01-21T15:14:11 IST" duration-ms="20603">
     <groups>
     </groups>
-    <test started-at="2025-01-16T17:21:16 IST" name="Default test" finished-at="2025-01-16T17:21:40 IST" duration-ms="24169">
-      <class name="io.GAVL.Sankalp.verifyCodeTextFunctionality">
-        <test-method is-config="true" signature="StartApp()[pri:0, instance:io.GAVL.Sankalp.verifyCodeTextFunctionality@1fa268de]" started-at="2025-01-16T17:21:16 IST" name="StartApp" finished-at="2025-01-16T17:21:24 IST" duration-ms="8220" status="PASS">
+    <test started-at="2025-01-21T15:13:50 IST" name="Default test" finished-at="2025-01-21T15:14:11 IST" duration-ms="20603">
+      <class name="io.GAVL.Sankalp.verifyQandAFuntionality">
+        <test-method is-config="true" signature="StartApp()[pri:0, instance:io.GAVL.Sankalp.verifyQandAFuntionality@4466af20]" started-at="2025-01-21T15:13:50 IST" name="StartApp" finished-at="2025-01-21T15:14:00 IST" duration-ms="9186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartApp -->
-        <test-method signature="verifyUserNotAbleToScanInvalidCode()[pri:0, instance:io.GAVL.Sankalp.verifyCodeTextFunctionality@1fa268de]" started-at="2025-01-16T17:21:24 IST" name="verifyUserNotAbleToScanInvalidCode" finished-at="2025-01-16T17:21:40 IST" duration-ms="15930" status="PASS">
+        <test-method signature="verifyUserAbleToCreateComplaintWithAppIssueOption()[pri:0, instance:io.GAVL.Sankalp.verifyQandAFuntionality@4466af20]" started-at="2025-01-21T15:14:00 IST" name="verifyUserAbleToCreateComplaintWithAppIssueOption" finished-at="2025-01-21T15:14:11 IST" duration-ms="11398" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserNotAbleToScanInvalidCode -->
-      </class> <!-- io.GAVL.Sankalp.verifyCodeTextFunctionality -->
+        </test-method> <!-- verifyUserAbleToCreateComplaintWithAppIssueOption -->
+      </class> <!-- io.GAVL.Sankalp.verifyQandAFuntionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
