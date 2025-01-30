@@ -62,7 +62,4 @@ public class GestureUtility {
 		    "left", left, "top", top, "width", width, "height", height,
 		    "direction", dir, "percent", percentage ));
 	}
-	
-	
-
 }
